@@ -35,5 +35,3 @@ app.use("/b7/carts", cartRoutes);
 app.listen(process.env.PORT || port, () => {
   console.log(`API is now online on port ${process.env.PORT || port}`);
 });
-
-module.exports = { app, mongoose };
